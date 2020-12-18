@@ -11,7 +11,7 @@ Getting Started
 MagicCode interface and tools
 =============================
 
-..image:: https://github.com/magicbitlk/MagicCode/tree/main/images/interface.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/interface.png
 
 - **Blocks**
 
@@ -37,7 +37,7 @@ Add Extensions is used to add new palettes to the block palette.
 
 Sprites, either user-created, uploaded, or found in the MagicCode Sprites library, are the objects that perform actions in a project. Most projects have at least one sprite as well because only sprites can move.
 
-..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/sprite.png
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/sprite.png
    
    Sprite list 
 
@@ -54,7 +54,7 @@ The **stage** is the background of the project where your sprites perform their 
  
 The stage is 480 pixels wide and 360 pixels tall.All sprites have a particular position on the stage. However, no sprites can move behind the stage and it is always at the back layer.
 
-..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/stage.png
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/stage.png
    
    The Stage list and the Stage with sprite on it
 
@@ -63,7 +63,7 @@ Devices
 
 The **Device** tab is the place where you can connect your boards with MagicCode. MagicCode provides facilities to connect five boards. You can connect your Magicbit, Arduino Uno, Arduino Mega, Arduino Nano, or Microbit Boards with MagicCode. You can program your board either in live mode or Upload mode.
 
-..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/device.png
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/device.png
    
    Device tab
 
@@ -71,7 +71,7 @@ The **Device** tab is the place where you can connect your boards with MagicCode
 
 In the **Live** mode, you can view the program execution effect in real-time, which facilitates the commissioning of the program.
 
-..admonition:: Note
+.. admonition:: Note
   
   In this mode, you must keep the board connected to MagicCode. If it is disconnected, then the program cannot be executed.
 
@@ -92,7 +92,7 @@ Connecting devices  with USB connector
 
 **4.	Select your Device by clicking the Select button.**
 
-.. figure :: https://github.com/magicbitlk/MagicCode/tree/main/images/d2.PNG
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/d2.PNG
 
    Devices Library
 
@@ -103,7 +103,7 @@ The above Devices library is displayed after clicking the select button and sele
 
 If you don’t see any port in the select port menu, then click the refresh button. Following figure dispays the select port menu.
 
-.. figure:: images/port.PNG
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/port.PNG
    :scale: 60% 
    
    Select port menu
@@ -112,18 +112,18 @@ If you don’t see any port in the select port menu, then click the refresh butt
 
 After the device has connected, "Connect" button changes to “Disconnect” button and |newbutton1| is turned into |newbutton2|.
 
-.. |newbutton1| image:: images/dconnect.png
+.. |newbutton1| image:: https://github.com/magicbitlk/MagicCode/tree/main/images/dconnect.png
                 :scale: 60%
 
-.. |newbutton2| image:: images/connect.png
+.. |newbutton2| image:: https://github.com/magicbitlk/MagicCode/tree/main/images/connect.png
                 :scale: 60% 
 
-.. figure:: images/d1.png
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/d1.png
    :scale: 60%
 
    Device tab, before connecting to the device 
    
-.. figure:: images/afterconnect.png
+.. figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/afterconnect.png
    :scale: 60%
 
    Device tab, after connecting to the device  
@@ -140,28 +140,28 @@ MagicCode Extensions
 Magicbit extension
 ------------------
 
-.. image:: images/ext1.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ext1.png
 
 Magicbit Blocks
 ~~~~~~~~~~~~~~~
 
-.. image:: images/mb1.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb1.png
 
 The block sets the digital state of the specified digital pin to either “High” or “Low”. If the output is High, the pin will be at 3.3V and if the output is Low the pin will be at 0V.
 
-.. image:: images/mb2.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb2.png
 
 The block sets PWM output on Magicbit PWM pins. The user can select the output from a range of 0 to 100.  If the PWM output is 50, then half the time output will be high and for the rest, the output will be Low.
 
-.. image:: images/mb3.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb3.png
 
 The block rotates the servo connected to the selected PWM pin on Magicbit with the selected angle(0,45,90,135,180) in degrees.
 
-.. image:: images/mb4.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb4.png
 
 The block reads the state of the digital pin on Magicbit(“High” or “Low”). If the state of the pin is “High”, it returns True, else False.
 
-.. image:: images/mb5.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb5.png
 
 The blocks output the status(“HIGH “or “LOW”) of the selected button(“left” or “right”).
 
@@ -171,27 +171,27 @@ Right button – Connected to D34 pin of Magicbit
 
 when the button has not been pressed the status of the button is 1(HIGH), & when the button has pressed the status of the button is 0(LOW). 
 
-.. image:: images/mb6.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb6.png
 
 The block returns the value of analog pins available in the connected hardware between the value range 0 to 4096. This range is mapped to the voltage of the pin (normally 0 to 3.3V). 
 
-.. image:: images/mb7.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb7.png
 
 The block returns the value of the pin D39, which is the potentiometer connected pin on the Magicbit. It generates a voltage between 0 and 3.3V according to the angle of the potentiometer and returns an integer value(0v= 0 analog value, 3.3v =  analog value).
 
-.. image:: images/mb8.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb8.png
 
 The block returns the value of the pin D36, which is the LDR(Light Depend Resistor) connected pin on the Magicbit. It generates a voltage between 0 and 3.3V according to the angle of the potentiometer and returns an integer value(0v = 0 analog value, 3.3v = 1024 analog value).
 
-.. image:: images/mb9.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb9.png
 
 The block generates a tone in the Piezo buzzer connected to the D25 pin on the Magicbit with Selected frequency and selected Duration.
 
-.. image:: images/mb10.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb10.png
 
 The block generates selected note(C,D,E,F,G,A,B) for selected number of beats.
 
-.. image:: images/mb11.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb11.png
 
 The block rotates the selected DC motor(motor 1 or motor 2) at the selected speed.
 
@@ -201,79 +201,79 @@ Motor 2 – connected to  M2A and M2B pins on the Magicbit
 
 Speed – should be at the range of -100 to 100.
 
-.. image:: images/mb12.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb12.png
 
 The block displays the text you entered at the selected starting position on the OLED display.
 
-.. image:: images/mb13.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb13.png
 
 The block displays the selected shape(circle, triangle, square)  at the selected starting position on the OLED display on Magicbit.
 
-.. image:: images/mb14.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb14.png
 
 The block sets the font size(supports sizes from 2 to 5) of the text displayed on the OLED display on Magicbit
 
-.. image:: images/mb15.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb15.png
 
 The block sets the shape size(supports sizes: small, medium, large) of the shape displayed on the OLED display on Magicbit.
 
-.. image:: images/mb16.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb16.png
 
 The block clears the OLED display which means all pixels are off.
 
-.. image:: images/mb17.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb17.png
 
 The block returns the distance by reading the analog pin where the ultrasonic sensor is connected.
 
-.. image:: images/mb18.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb18.png
 
 The block returns the temperature by reading the analog pin where the DHT11 sensor is connected.
 
-.. image:: images/mb19.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb19.png
 
 The block returns the humidity by reading the analog pin where the DHT11 sensor is connected.
 
-.. image:: images/mb20.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb20.png
 
 The block sets the color of the RGB module to the selected RGB value. These R, G, B values should be an integer between 1-255. ‘Pin’ variable is the Microbit pin where the RGB module is connected and the ‘index’ variable represents the number of LEDs that module has.
 
-.. image:: images/mb21.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/mb21.png
 
 The Block sets the color of the RGB LED to the selected color at the selected pin on Magicbit.
 
 Arduino extension
 ------------------
 
-.. image:: images/ext2.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ext2.png
 
 Arduino Blocks
 ~~~~~~~~~~~~~~~
 
-.. image:: images/ar1.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar1.png
 
 The block sets the digital state of the specified digital pin to either “High” or “Low”. If the output is High, the pin will be at 5V and if the output is Low the pin will be at 0V.
 
-.. image:: images/ar2.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar2.png
 
 The block set PWM output on Arduino PWM pins. The user can select the output from a range of 0 to 255.  If the PWM output is 128, then half the time output will be high and for the rest, the output will be Low.
 
-.. image:: images/ar3.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar3.png
 
 The block rotates the servo connected to the selected PWM pin on Arduino with the selected angle(0,45,90,135,180) in degrees.
 
-.. image:: images/ar4.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar4.png
 
 The block reads the state of the digital pin on Arduino (“High” or “Low”). If the state of the pin is “High”, it returns True, else False.
 
-.. image:: images/ar5.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar5.png
 
 The block returns the value of analog pins available in the connected hardware between the value range 0 to 1023. This range is mapped to the voltage of the pin (normally 0 to 5V). If the value received is 512, the voltage value will be around 2.5V.
 
-.. image:: images/ar6.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ar6.png
 
 The block Re-maps a number from one range to another. According to the default values mention in this block, 50 in the range 0-1023 mapped to the nearest integer value between the range 0-255 which is 12.
 
-.. image:: images/123.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/123.png
 
 
 *********
@@ -333,7 +333,7 @@ Script
 
 Drag and Drop following blocks from Events,control and MagicBit lists of the block palatte and make the script.
 
-.. image:: images/ex1.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex1.png
 
 Explanation
 ~~~~~~~~~~~
@@ -369,7 +369,7 @@ Drag and Drop blocks from Events,control and MagicBit block lists of the block p
 Script
 ~~~~~~
 
-.. image:: images/ex2.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex2.png
 
 Explanation
 ~~~~~~~~~~~
@@ -412,7 +412,7 @@ Lets select green LED (which is wired to D16). Drag and Drop following control,o
 Script
 ~~~~~~
 
-.. image:: images/ex3.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex3.png
 
 
 Explanation
@@ -457,7 +457,7 @@ Drag and Drop blocks from blocks palatte and create the following Script to do t
 Script
 ------
 
-.. image:: images/ex5.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex5.png
 
 Explanation
 -----------
@@ -499,7 +499,7 @@ Drag and Drop following blocks from block palatte and create the following scrip
 Script
 ~~~~~~
  
-.. image:: images/ex6.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex6.png
 
 Explanation
 ~~~~~~~~~~~
@@ -535,7 +535,7 @@ Drag and Drop following blocks from the block pallate and create the following S
 Script
 ~~~~~~
  
-.. image:: images/ex7.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex7.png
 
 Explanation
 -----------
@@ -579,7 +579,7 @@ For implement this project first connect the magic servo motor to the Magicbit. 
 Script
 ~~~~~~~
 
-.. image:: images/ex8.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex8.png
 
 
 Explanation
@@ -621,7 +621,7 @@ Create the following Script by Dragging and Dropping blocks from the Block Palet
 Script
 ~~~~~~
 
-.. image:: images/ex9.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex9.png
 
 
 Explanation
@@ -659,7 +659,7 @@ Connect the Temperature & Humidity sensor to the Magicbit via left upper connect
 Script
 ~~~~~~
 
-.. image:: images/ex10.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex10.png
 
 Explanation
 ~~~~~~~~~~~
@@ -703,7 +703,7 @@ Dra and Drop following blocks to create the following script. then you can read 
 Script
 ~~~~~~
 
-.. image:: images/ex11.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex11.png
 
 Explanation
 ~~~~~~~~~~~
@@ -762,50 +762,12 @@ In this example, we are going to use M1A and  M1B pins. Connect the motor to the
 
 Script
 ~~~~~~
-.. image:: images/ex12.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/ex12.png
 
 Explanation
 ~~~~~~~~~~~
 
 In this example, we are going to continuously rotate the dc motor in one direction and to the opposite direction. As other examples, clicking the green flag on the MagicCode interface starts the program. Then the “forever”  block continuously runs the script inside it. First, the motor rotates in one direction for two seconds. Then it stops for another one second and starts to turn in the opposite direction. You can set the speed of the selected motor as you want with the MagicCode “Run motor [Motor] at speed [Speed]” block.
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
