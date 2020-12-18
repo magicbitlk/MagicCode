@@ -11,7 +11,7 @@ Getting Started
 MagicCode interface and tools
 =============================
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/interface.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/interface.PNG
 
 - **Blocks**
 
@@ -37,7 +37,7 @@ Add Extensions is used to add new palettes to the block palette.
 
 Sprites, either user-created, uploaded, or found in the MagicCode Sprites library, are the objects that perform actions in a project. Most projects have at least one sprite as well because only sprites can move.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/sprite.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/sprite.PNG
    
    Sprite list 
 
@@ -54,7 +54,84 @@ The **stage** is the background of the project where your sprites perform their 
  
 The stage is 480 pixels wide and 360 pixels tall.All sprites have a particular position on the stage. However, no sprites can move behind the stage and it is always at the back layer.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/stage.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/stage.PNG
    
    The Stage list and the Stage with sprite on it
+   
+   Devices
+=======
+
+The **Device** tab is the place where you can connect your boards with MagicCode. MagicCode provides facilities to connect five boards. You can connect your Magicbit, Arduino Uno, Arduino Mega, Arduino Nano, or Microbit Boards with MagicCode. You can program your board either in live mode or Upload mode.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/device.png
+   
+   Device tab
+
+**Live mode**
+
+In the **Live** mode, you can view the program execution effect in real-time, which facilitates the commissioning of the program.
+
+.. admonition:: Note
+  
+  In this mode, you must keep the board connected to MagicCode. If it is disconnected, then the program cannot be executed.
+
+**Upload mode**
+
+In the **Upload** mode, you need to upload the compiled program to the device. After being successfully uploaded, the program can still run properly on the device when the device is disconnected from MagicCode.
+
+.. _connect:
+
+Connecting devices  with USB connector
+--------------------------------------
+
+**1.	Connect your device to the pc with USB Connector**
+
+**2.	Go to  the Device tab at the down right corner of MagicCode interface**
+
+**3.	Select Live Mode or Upload Mode**
+
+**4.	Select your Device by clicking the Select button.**
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d2.PNG
+
+   Devices Library
+
+
+The above Devices library is displayed after clicking the select button and select your devices from the library.
+
+**5.	Select the Serial port where the device is connected.**
+
+If you don’t see any port in the select port menu, then click the refresh button. Following figure dispays the select port menu.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/port.PNG
+   :scale: 60% 
+   
+   Select port menu
+
+**6.	Click the connect button and connect your device to MagicCode**
+
+After the device has connected, "Connect" button changes to “Disconnect” button and |newbutton1| is turned into |newbutton2|.
+
+.. |newbutton1| image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.png
+                :scale: 60%
+
+.. |newbutton2| image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.png
+                :scale: 60% 
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d1.png
+   :scale: 60%
+
+   Device tab, before connecting to the device 
+   
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/afterconnect.png
+   :scale: 60%
+
+   Device tab, after connecting to the device  
+
+Now you can create and execute your program with your board.
+
+
+
+
+
 
