@@ -101,19 +101,125 @@ If you don’t see any port in the select port menu, then click the refresh butt
 
 After the device has connected, "Connect" button changes to “Disconnect” button and |newbutton1| is turned into |newbutton2|.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.PNG
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.PNG
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d1.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d1.PNG
 
    
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/afterconnect.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/afterconnect.PNG
 
    Device tab, after connecting to the device  
 
 Now you can create and execute your program with your board.
 
+MagicCode Extensions
+====================
+
+Magicbit extension
+------------------
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ext1.png
+
+Magicbit Blocks
+~~~~~~~~~~~~~~~
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb1.png
+
+The block sets the digital state of the specified digital pin to either “High” or “Low”. If the output is High, the pin will be at 3.3V and if the output is Low the pin will be at 0V.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb2.png
+
+The block sets PWM output on Magicbit PWM pins. The user can select the output from a range of 0 to 100.  If the PWM output is 50, then half the time output will be high and for the rest, the output will be Low.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb3.png
+
+The block rotates the servo connected to the selected PWM pin on Magicbit with the selected angle(0,45,90,135,180) in degrees.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb4.png
+
+The block reads the state of the digital pin on Magicbit(“High” or “Low”). If the state of the pin is “High”, it returns True, else False.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb5.png
+
+The blocks output the status(“HIGH “or “LOW”) of the selected button(“left” or “right”).
+
+Left button – Connected to D35 pin of Magicbit
+
+Right button – Connected to D34 pin of Magicbit
+
+when the button has not been pressed the status of the button is 1(HIGH), & when the button has pressed the status of the button is 0(LOW). 
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb6.png
+
+The block returns the value of analog pins available in the connected hardware between the value range 0 to 4096. This range is mapped to the voltage of the pin (normally 0 to 3.3V). 
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb7.png
+
+The block returns the value of the pin D39, which is the potentiometer connected pin on the Magicbit. It generates a voltage between 0 and 3.3V according to the angle of the potentiometer and returns an integer value(0v= 0 analog value, 3.3v =  analog value).
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb8.png
+
+The block returns the value of the pin D36, which is the LDR(Light Depend Resistor) connected pin on the Magicbit. It generates a voltage between 0 and 3.3V according to the angle of the potentiometer and returns an integer value(0v = 0 analog value, 3.3v = 1024 analog value).
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb9.png
+
+The block generates a tone in the Piezo buzzer connected to the D25 pin on the Magicbit with Selected frequency and selected Duration.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb10.png
+
+The block generates selected note(C,D,E,F,G,A,B) for selected number of beats.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb11.png
+
+The block rotates the selected DC motor(motor 1 or motor 2) at the selected speed.
+
+Motor 1 – connected to  M1A and M1B pins on the Magicbit
+
+Motor 2 – connected to  M2A and M2B pins on the Magicbit
+
+Speed – should be at the range of -100 to 100.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb12.png
+
+The block displays the text you entered at the selected starting position on the OLED display.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb13.png
+
+The block displays the selected shape(circle, triangle, square)  at the selected starting position on the OLED display on Magicbit.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb14.png
+
+The block sets the font size(supports sizes from 2 to 5) of the text displayed on the OLED display on Magicbit
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb15.png
+
+The block sets the shape size(supports sizes: small, medium, large) of the shape displayed on the OLED display on Magicbit.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb16.png
+
+The block clears the OLED display which means all pixels are off.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb17.png
+
+The block returns the distance by reading the analog pin where the ultrasonic sensor is connected.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb18.png
+
+The block returns the temperature by reading the analog pin where the DHT11 sensor is connected.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb19.png
+
+The block returns the humidity by reading the analog pin where the DHT11 sensor is connected.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb20.png
+
+The block sets the color of the RGB module to the selected RGB value. These R, G, B values should be an integer between 1-255. ‘Pin’ variable is the Microbit pin where the RGB module is connected and the ‘index’ variable represents the number of LEDs that module has.
+
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/mb21.png
+
+The Block sets the color of the RGB LED to the selected color at the selected pin on Magicbit.
 
 
 
