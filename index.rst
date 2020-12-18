@@ -11,7 +11,7 @@ Getting Started
 MagicCode interface and tools
 =============================
 
-.. image:: https://github.com/magicbitlk/Magicbit-Arduino/raw/main/images/interface.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/interface.png
 
 - **Blocks**
 
@@ -37,11 +37,24 @@ Add Extensions is used to add new palettes to the block palette.
 
 Sprites, either user-created, uploaded, or found in the MagicCode Sprites library, are the objects that perform actions in a project. Most projects have at least one sprite as well because only sprites can move.
 
-.. image:: https://github.com/magicbitlk/Magicbit-Arduino/raw/main/images/sprite.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/sprite.png
+   
+   Sprite list 
 
+Users can **give instructions** to a sprite (such as telling the sprite to move) by snapping blocks together in the script area. Clicking on the block(s) in the script area will cause the sprite to react based on the function of the block(s) clicked. Clicking on a sprite's thumbnail in the sprite pane will bring up the script area of that sprite.
 
+The **look of a sprite can also be changed by using costumes**. The current costume of a sprite can be changed by clicking on the "costumes" tab and clicking on the desired costume of choice, or by using Looks blocks to select the sprite's costume. New costumes for the sprite can be imported, created, and edited in the MagicCode Paint Editor.
 
+Some sprites additionally have at least one sound. Unlike costumes, sounds are an optional field, so you can have a sprite with no sounds. **The sounds tab** allows you to add, delete, and edit sounds. Sounds can be played in the sound editor or with blocks that play a specific sound.
+Sprites (with all of their scripts, costumes, and sounds) can be exported, and then imported into another project if desired. This is achieved by right-clicking on a sprite's thumbnail in the sprite pane and then selecting "save to local file" in the pop-up menu. A sprite can also be dragged into the backpack and dragged out into another project for transporting. However, this will not save the sprite to one's computer.
 
+- **Stage**
 
+The **stage** is the background of the project where your sprites perform their actions,but it can have scripts, backdrops (costumes), and sounds, similar to a sprite and it has its own scripts and sounds.But the stage has some restrictions on sprite functions such as motion and size blocks.
+ 
+The stage is 480 pixels wide and 360 pixels tall.All sprites have a particular position on the stage. However, no sprites can move behind the stage and it is always at the back layer.
 
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/stage.png
+   
+   The Stage list and the Stage with sprite on it
 
