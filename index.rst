@@ -774,11 +774,4 @@ In this example, we are going to continuously rotate the dc motor in one directi
 
 
 
-.. toctree::
-   :maxdepth: 1
-
-
-
-
-
 
