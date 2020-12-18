@@ -101,9 +101,6 @@ If you don’t see any port in the select port menu, then click the refresh butt
 
 After the device has connected, "Connect" button changes to “Disconnect” button and icon changes.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.PNG
-
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.PNG
 
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d1.PNG
    
@@ -311,7 +308,7 @@ Script
 
 Drag and Drop following blocks from Events,control and MagicBit lists of the block palatte and make the script.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex1.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex1.PNG
 
 Explanation
 ~~~~~~~~~~~
@@ -347,7 +344,7 @@ Drag and Drop blocks from Events,control and MagicBit block lists of the block p
 Script
 ~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex2.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex2.PNG
 
 Explanation
 ~~~~~~~~~~~
@@ -390,7 +387,7 @@ Lets select green LED (which is wired to D16). Drag and Drop following control,o
 Script
 ~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex3.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex3.PNG
 
 
 Explanation
@@ -435,7 +432,7 @@ Drag and Drop blocks from blocks palatte and create the following Script to do t
 Script
 ------
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex5.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex5.PNG
 
 Explanation
 -----------
@@ -477,7 +474,7 @@ Drag and Drop following blocks from block palatte and create the following scrip
 Script
 ~~~~~~
  
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex6.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex6.PNG
 
 Explanation
 ~~~~~~~~~~~
@@ -513,7 +510,7 @@ Drag and Drop following blocks from the block pallate and create the following S
 Script
 ~~~~~~
  
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex7.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex7.PNG
 
 Explanation
 -----------
@@ -557,7 +554,7 @@ For implement this project first connect the magic servo motor to the Magicbit. 
 Script
 ~~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex8.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex8.PNG
 
 
 Explanation
@@ -599,7 +596,7 @@ Create the following Script by Dragging and Dropping blocks from the Block Palet
 Script
 ~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex9.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex9.PNG
 
 
 Explanation
@@ -637,7 +634,7 @@ Connect the Temperature & Humidity sensor to the Magicbit via left upper connect
 Script
 ~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex10.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex10.PNG
 
 Explanation
 ~~~~~~~~~~~
@@ -681,7 +678,7 @@ Dra and Drop following blocks to create the following script. then you can read 
 Script
 ~~~~~~
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex11.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex11.PNG
 
 Explanation
 ~~~~~~~~~~~
@@ -740,7 +737,7 @@ In this example, we are going to use M1A and  M1B pins. Connect the motor to the
 
 Script
 ~~~~~~
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex12.png
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/ex12.PNG
 
 Explanation
 ~~~~~~~~~~~
