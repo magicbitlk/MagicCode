@@ -11,7 +11,7 @@ Getting Started
 MagicCode interface and tools
 =============================
 
-.. image:: images/interface.png
+.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/interface.png
 
 - **Blocks**
 
