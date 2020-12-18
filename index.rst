@@ -38,8 +38,6 @@ Add Extensions is used to add new palettes to the block palette.
 Sprites, either user-created, uploaded, or found in the MagicCode Sprites library, are the objects that perform actions in a project. Most projects have at least one sprite as well because only sprites can move.
 
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/sprite.PNG
-   
-   Sprite list 
 
 Users can **give instructions** to a sprite (such as telling the sprite to move) by snapping blocks together in the script area. Clicking on the block(s) in the script area will cause the sprite to react based on the function of the block(s) clicked. Clicking on a sprite's thumbnail in the sprite pane will bring up the script area of that sprite.
 
@@ -54,18 +52,14 @@ The **stage** is the background of the project where your sprites perform their 
  
 The stage is 480 pixels wide and 360 pixels tall.All sprites have a particular position on the stage. However, no sprites can move behind the stage and it is always at the back layer.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/stage.PNG
-   
-   The Stage list and the Stage with sprite on it
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/Stage.PNG
    
    Devices
 =======
 
 The **Device** tab is the place where you can connect your boards with MagicCode. MagicCode provides facilities to connect five boards. You can connect your Magicbit, Arduino Uno, Arduino Mega, Arduino Nano, or Microbit Boards with MagicCode. You can program your board either in live mode or Upload mode.
 
-.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/device.png
-   
-   Device tab
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/device.PNG
 
 **Live mode**
 
@@ -94,9 +88,6 @@ Connecting devices  with USB connector
 
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d2.PNG
 
-   Devices Library
-
-
 The above Devices library is displayed after clicking the select button and select your devices from the library.
 
 **5.	Select the Serial port where the device is connected.**
@@ -104,27 +95,20 @@ The above Devices library is displayed after clicking the select button and sele
 If you don’t see any port in the select port menu, then click the refresh button. Following figure dispays the select port menu.
 
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/port.PNG
-   :scale: 60% 
-   
-   Select port menu
+
 
 **6.	Click the connect button and connect your device to MagicCode**
 
 After the device has connected, "Connect" button changes to “Disconnect” button and |newbutton1| is turned into |newbutton2|.
 
-.. |newbutton1| image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.png
-                :scale: 60%
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/dconnect.png
 
-.. |newbutton2| image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.png
-                :scale: 60% 
+.. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/connect.png
 
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/d1.png
-   :scale: 60%
 
-   Device tab, before connecting to the device 
    
 .. image:: https://raw.githubusercontent.com/magicbitlk/MagicCode/main/images/afterconnect.png
-   :scale: 60%
 
    Device tab, after connecting to the device  
 
