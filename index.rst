@@ -770,6 +770,10 @@ Explanation
 In this example, we are going to continuously rotate the dc motor in one direction and to the opposite direction. As other examples, clicking the green flag on the MagicCode interface starts the program. Then the “forever”  block continuously runs the script inside it. First, the motor rotates in one direction for two seconds. Then it stops for another one second and starts to turn in the opposite direction. You can set the speed of the selected motor as you want with the MagicCode “Run motor [Motor] at speed [Speed]” block.
 
 
+.. toctree::
+   :maxdepth: 1
+
+
 
 
 
