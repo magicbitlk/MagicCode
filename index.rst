@@ -11,7 +11,7 @@ Getting Started
 MagicCode interface and tools
 =============================
 
-.. image:: https://github.com/magicbitlk/MagicCode/tree/main/images/interface.png
+..image:: https://github.com/magicbitlk/MagicCode/tree/main/images/interface.png
 
 - **Blocks**
 
@@ -37,7 +37,7 @@ Add Extensions is used to add new palettes to the block palette.
 
 Sprites, either user-created, uploaded, or found in the MagicCode Sprites library, are the objects that perform actions in a project. Most projects have at least one sprite as well because only sprites can move.
 
-.. figure:: images/sprite.png
+..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/sprite.png
    
    Sprite list 
 
@@ -54,7 +54,7 @@ The **stage** is the background of the project where your sprites perform their 
  
 The stage is 480 pixels wide and 360 pixels tall.All sprites have a particular position on the stage. However, no sprites can move behind the stage and it is always at the back layer.
 
-.. figure:: images/stage.png
+..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/stage.png
    
    The Stage list and the Stage with sprite on it
 
@@ -63,7 +63,7 @@ Devices
 
 The **Device** tab is the place where you can connect your boards with MagicCode. MagicCode provides facilities to connect five boards. You can connect your Magicbit, Arduino Uno, Arduino Mega, Arduino Nano, or Microbit Boards with MagicCode. You can program your board either in live mode or Upload mode.
 
-.. figure:: images/device.png
+..figure:: https://github.com/magicbitlk/MagicCode/tree/main/images/device.png
    
    Device tab
 
@@ -71,7 +71,7 @@ The **Device** tab is the place where you can connect your boards with MagicCode
 
 In the **Live** mode, you can view the program execution effect in real-time, which facilitates the commissioning of the program.
 
-.. admonition:: Note
+..admonition:: Note
   
   In this mode, you must keep the board connected to MagicCode. If it is disconnected, then the program cannot be executed.
 
@@ -92,7 +92,7 @@ Connecting devices  with USB connector
 
 **4.	Select your Device by clicking the Select button.**
 
-.. figure:: images/d2.PNG
+.. figure :: https://github.com/magicbitlk/MagicCode/tree/main/images/d2.PNG
 
    Devices Library
 
